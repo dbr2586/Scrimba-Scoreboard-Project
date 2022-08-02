@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(https://res.cloudinary.com/dukkrgcrr/raw/upload/v1659110746/CursedTimerULiL_hyuinp.ttf);
+  font-family: scoreboard
+}
+
+body {
+    margin: 0;
+    background: lightblue
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: auto; 
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+#board-tile-home, #board-tile-away {
+font-family: Verdana;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+height: 36px; 
+width: 155px;
+line-height: 90%;
+}
+
+#board-tile-home {
+  color: #eeeeee
+}
+
+#board-tile-away {
+  color: #eeeeee
+}
+
+#home-score-display, #away-score-display {
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+font-family: scoreboard;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+background: black;
+border-radius: 10px;
+}
+
+#home-button-container, #away-button-container {
+  height: 45px;
+  width: 155px; 
+  padding-top: 20px;
+}
+
+button {
+  width: 42px;
+  height: 42px;
+  padding: 0px; 
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  background: ghostwhite;
+  font-size: .5em
+}
+
+button:active {
+  border: 3px solid #9AABD8;
+  font-size: .47em
+}
+
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+#reset-button {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-self: flex-end;
+  border-radius: 100%;
+  background: crimson;
+  margin-bottom: 10px;
+  color: ghostwhite;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 100vw;
+    height: 100vh;
+    margin: auto; 
+}
+ 
+  #reset-button { 
+   margin-bottom: 20vh;
+}
+
+}
