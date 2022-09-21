@@ -25,13 +25,13 @@ body {
 }
 
 #board-tile-home, #board-tile-away {
-font-family: Verdana;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-height: 36px; 
-width: 155px;
-line-height: 90%;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  height: 36px; 
+  width: 155px;
+  line-height: 90%;
 }
 
 #board-tile-home {
@@ -43,19 +43,19 @@ line-height: 90%;
 }
 
 #home-score-display, #away-score-display {
-width: 155px;
-height: 120px;
-left: 82px;
-top: 125px;
-font-family: scoreboard;
-font-style: normal;
-font-weight: 400;
-font-size: 90px;
-line-height: 127px;
-text-align: center;
-color: #F94F6D;
-background: black;
-border-radius: 10px;
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  font-family: scoreboard;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D;
+  background: black;
+  border-radius: 10px;
 }
 
 #home-button-container, #away-button-container {
